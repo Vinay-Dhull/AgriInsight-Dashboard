@@ -17,14 +17,14 @@ This project showcases a full data analytics workflow for agriculture-related pa
 
 ## 🔄 Project Flow
 
-```mermaid
 graph TD
   A[AWS S3 Bucket<br>Raw Dataset] --> B[Snowflake<br>Data Warehousing]
   B --> C[Data Cleaning<br>& Transformation]
   C --> D[Data Modeling<br>with Views & Joins]
   D --> E[Power BI<br>Live Connection]
   E --> F[Interactive Reports<br>and Dashboards]
- 
+
+--- 
 
 ## 🛠️ Tech Stack
 
